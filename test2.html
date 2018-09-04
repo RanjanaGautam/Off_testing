@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test2</title>
+</head>
+<body>
+
+	<input type="text" id="text1"> <br>
+	<br>
+	<input type="text" id="text2"> <br>
+	<br>
+	<button id="plus" onclick="addition()">+</button>
+	<button id="sub" onclick="subtraction()">-</button>
+	<button id="mul" onclick="multiplication()">*</button>
+	<button id="div" onclick="division()">/</button>
+
+
+	<script type="text/javascript">
+		function addition() {
+			var input1 = document.getElementById('text1').value;
+			
+			var input2 = document.getElementById('text2').value;
+			alert(parseInt(input1) + parseInt(input2));
+			//var result = input1 + input2;
+			//document.write(result);
+			//console.log(input1 + input2);
+		}
+		/*function addition() {
+
+			document.write('text1' - 'text2');
+		}
+		function addition() {
+
+			document.write('text1' * 'text2');
+		}
+		function addition() {
+
+			document.write('text1' / 'text2');
+		}*/
+	</script>
+
+</body>
+</html>
